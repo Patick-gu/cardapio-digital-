@@ -1,0 +1,27 @@
+body {
+    padding-bottom: 80px; /* Ou a altura do botão */
+}
+
+.container{
+   margin-top: 30px;
+}
+.carousel-inner img {
+    height: 400px; /* Altere a altura de acordo com sua necessidade */
+    object-fit: cover; /* Mantém o aspecto das imagens e corta o excesso */
+}
+.card-text{
+    text-size: 10px;
+}
+.fixed-bottom {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn {
+    padding: 15px;
+    font-size: 18px;
+}
